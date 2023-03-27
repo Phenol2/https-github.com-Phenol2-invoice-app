@@ -7,6 +7,9 @@ export const Wrapper = styled.div`
   left: 0;
   top: 0;
   background-color: #062d6b;
+  diaplay: flex;
+  flex-direction: column;
+  align-items: center;
 `
 
 export const Logo = styled.div`
@@ -24,4 +27,18 @@ export const Circle = styled.div`
       height: 50px;
       border-radius: 50%;
       background-color: white;
+`
+
+export const Container = styled.div`
+      flex: 1;
+      height: 80vh;
+`
+
+export const Avatar = styled.div`
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      margin: 0 auto;
+      
 `
